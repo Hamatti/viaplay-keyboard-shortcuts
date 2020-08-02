@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Add keyboard shortcut support for (m)ute and (f)ullscreen to Viaplay web player",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://*.viaplay.fi/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
