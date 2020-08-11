@@ -11,21 +11,27 @@ document.addEventListener("keyup", (event) => {
 
   /* If it's m, we want to mute/unmute */
   if (event.key === "m") {
-    showUI();
-    const muteButton = document.querySelector(".audio-control");
-    muteButton.click();
+    document.querySelector(".scene").click();
+    setTimeout(() => {
+      showUI();
+      const muteButton = document.querySelector(".audio-control");
+      muteButton.click();
+    }, 10);
   }
 
   /* If it's f, we want to toggle fullscreen */
   if (event.key === "f") {
-    showUI();
+    document.querySelector(".scene").click();
+    setTimeout(() => {
+      showUI();
 
-    const fullscreen = document.querySelector(".fullscreen");
-    if (fullscreen) {
-      fullscreen.click();
-    } else {
-      document.querySelector(".no-fullscreen").click();
-    }
+      const fullscreen = document.querySelector(".fullscreen");
+      if (fullscreen) {
+        fullscreen.click();
+      } else {
+        document.querySelector(".no-fullscreen").click();
+      }
+    }, 10);
   }
 
   return false;
