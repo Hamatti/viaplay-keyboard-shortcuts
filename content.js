@@ -16,7 +16,7 @@ document.addEventListener("keyup", (event) => {
       showUI();
       const muteButton = document.querySelector(".audio-control");
       muteButton.click();
-    }, 10);
+    }, 20);
   }
 
   /* If it's f, we want to toggle fullscreen */
