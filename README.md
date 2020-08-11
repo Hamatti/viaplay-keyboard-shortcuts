@@ -4,10 +4,6 @@ Viaplay is a streaming service with one annoying feature: it doesn't support usi
 
 I built this unpacked (at least until I can fix all the issues) Chrome extension to solve that problem.
 
-## Known issues
-
-Using `m`/`f` works but not quite as intended. If your mouse is not over the control panel, it will also pause the video. I guess this happens because clicking on top of the video normally pauses and I haven't yet been able to figure out a way to circumvent that. It's still a major improvement to my flow so I started to use this already.
-
 ## How to use?
 
 It's currently an unpacked extension so [download this](https://github.com/Hamatti/viaplay-keyboard-shortcuts/archive/master.zip) and unzip it into a folder. Then open your Google Chrome, go to [chrome://extensions](chrome://extensions), enable Developer mode from the toggle and select "Load unpacked" and navigate to the folder you unzipped it into.
