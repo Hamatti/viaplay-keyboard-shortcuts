@@ -10,6 +10,10 @@ It's currently an unpacked extension so [download this](https://github.com/Hamat
 
 Now whenever you navigate to [viaplay.fi](https://viaplay.fi) and start playing a video, the new keyboard shortcuts will be available.
 
+## Note
+
+Please note that this extension is not affiliated, endorsed or supported by Viaplay or Viasat. It is a hobby project built by a user.
+
 ## LICENSE
 
 Copyright 2020 Juha-Matti Santala
