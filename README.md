@@ -6,6 +6,8 @@ Viaplay is a streaming service with one annoying feature: it doesn't support usi
 
 I built this unpacked (at least until I can fix all the issues) Chrome extension to solve that problem.
 
+(PS. I also built [one for Telia TV](https://github.com/Hamatti/teliatv-keyboard-shortcuts))
+
 ## How to use?
 
 It's currently an unpacked extension so [download this](https://github.com/Hamatti/viaplay-keyboard-shortcuts/archive/master.zip) and unzip it into a folder. Then open your Google Chrome, go to [chrome://extensions](chrome://extensions), enable Developer mode from the toggle and select "Load unpacked" and navigate to the folder you unzipped it into.
