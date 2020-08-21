@@ -1,5 +1,7 @@
 # Viaplay Keyboard Shortcuts (Chrome Extension)
 
+![](project-logo-viaplay-shortcuts.png)
+
 Viaplay is a streaming service with one annoying feature: it doesn't support using `m` key to mute nor `f` key to toggle fullscreen like almost any other player in the web these days.
 
 I built this unpacked (at least until I can fix all the issues) Chrome extension to solve that problem.
